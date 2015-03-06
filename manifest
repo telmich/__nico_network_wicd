@@ -36,4 +36,4 @@ for pkg in wicd wicd-gtk; do
    __package $pkg --state present
 done
 
-__start_on_boot wicd
+require="__package/wicd" __start_on_boot wicd
