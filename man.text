@@ -1,0 +1,32 @@
+cdist-type__nico_network_wicd(7)
+================================
+Nico Schottelius <nico-cdist--@--schottelius.org>
+
+
+NAME
+----
+cdist-type__nico_network_wicd - Manage network via wicd
+
+
+DESCRIPTION
+-----------
+This cdist type allows network configurations to be made
+via wicd. It also installs the wicd-gtk package for easy
+administration by users.
+
+EXAMPLES
+--------
+
+--------------------------------------------------------------------------------
+__nico_network_wicd
+
+
+SEE ALSO
+--------
+- cdist-type(7)
+
+
+COPYING
+-------
+Copyright \(C) 2011-2015 Nico Schottelius. Free use of this software is
+granted under the terms of the GNU General Public License version 3 (GPLv3).
